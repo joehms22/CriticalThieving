@@ -1,0 +1,10 @@
+name,human name,behavior tree,x,y,costume,action,action,action,action,action,action,action,action,action,action,action
+Player,Thief,player,5,5,thief_1,,,,,,,,,,,
+VendingMachine,ColaMatic,,20,2,vend,BuyEnergyDrink,BuyHotDog,StealHotDog,LightonFire,,,,,,,
+Policeman,Policeman Bob,Character,10,20,policeman_1,GiveDonut,StealTazer,RobatScissorpoint,TazeandRob,ShakeHand,Punch,GiveHaircut,,,,
+Barber,Barber Joe,Character,20,10,barber_1,BuyHaircut,StealScissors,RobatScissorpoint,TazeandRob,ShakeHand,Punch,GiveHaircut,,,,
+Scared,Orange Guy,Character,30,20,orange_1,Hug,StealWallet,RobatScissorpoint,TazeandRob,GiveMoney,Punch,GiveHaircut,,,,
+Bank,Bank,,5,24,bank_small,RobBank,SolicitCharity,RobinHoodBonus,LightonFire,,,,,,,
+Restaurant,Pizzeria,,13,24,Pizzeria,BuyPizza,StealPizza,SellCatMeat,LightonFire,,,,,,,
+Mart,Mini-Mart,,21,24,Minimart,BuyDonut,BuyScissors,BuyTazer,LightonFire,,,,,,,
+Tree,Tree,,29,22,tree,TrimTree,SaveKitten,TazeKitten,LightonFire,,,,,,,

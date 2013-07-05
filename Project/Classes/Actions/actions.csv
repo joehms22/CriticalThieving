@@ -1,0 +1,31 @@
+name	play_sound(“{}”)	display_bubble(actor,“{}”)	_owner->is(rich) == {}	_owner->is(full) == {}	_owner->is(moral) == {}	actor.is(rich) == {}	actor.is(full) == {}	actor.is(moral) == {}	actor.value(rich) {}	actor.value(full) {}	actor.value(moral) {}	Blackboard::getGlobalInstance()->getBool(“{}”, false) == true	Blackboard::getGlobalInstance()->getBool(“{}”, false) != true	_props->setValue(rich, {});	_props->setValue(full, {});	_props->setValue(moral, {});	Blackboard::getGlobalInstance()->setBool(“{}”, true)	Blackboard::getGlobalInstance()->setBool(“{}”, false)	Blackboard::getGlobalInstance()->setNumber(“Score”, {} + Blackboard::getGlobalInstance()->getNumber(“Score”, 0))
+name	onRun	onRun	precondition	precondition	precondition	precondition	precondition	precondition	precondition	precondition	precondition	precondition	precondition	properties	properties	properties	onRun	onRun	onRun
+Buy Hot Dog	full_up.mp3	rich-_full+.png							>= 5					-5	20				
+Buy Pizza	full_up.mp3	rich-_full+.png							>= 20					-20	50				
+Steal Hot Dog	moral_down.mp3	full+_moral-.png					FALSE								20	-10			
+Steal Pizza	moral_down.mp3	full+_moral-.png					FALSE								50	-10			
+Buy Energy Drink	full_up.mp3	rich-_full+.png							>= 5					-5	10				
+Light on Fire	moral_down.mp3	moral-.png						FALSE		>=20						-20			
+Punch	moral_down.mp3	moral-.png								>=20						-5			
+Shake Hand	moral_up.mp3	moral+.png								>=20						1			
+Steal Wallet	rich_up.mp3	rich+_moral-.png				FALSE								5		-5			
+Give Money	moral_up.mp3	rich-_moral+.png							>=5					-5		1	GiveToPoor		
+Pass Out Free Candy	moral_down.mp3	rich-_moral+.png							>=2					-5		1			
+Buy Haircut	moral_up.mp3	rich-_moral+.png							>=10					-10		5			
+Steal Scissors	moral_down.mp3	moral-.png						FALSE					HasScissors			-5	HasScissors		
+Rob at Scissorpoint	rich_up.mp3	rich+_moral-.png								>=50		HasScissors		20		-10		HasScissors	
+Give Haircut	rich_up.mp3	rich+.png										HasScissors		10					
+Give Donut	moral_up.mp3	rich-_moral+.png										HasDonut				20		HasDonut	
+Steal Tazer	moral_down.mp3	moral-.png						FALSE					HasTazer			-5	HasTazer		
+Taze and Rob	rich_up.mp3	rich+_moral-.png								>=50		HasTazer		20		-10		HasTazer	
+Hug	moral_up.mp3	moral+.png														1			
+Trim Tree	moral_up.mp3	moral+.png										HasScissors				5			
+Save Kitten	moral_up.mp3	moral+.png														1			
+Taze Kitten	moral_down.mp3	moral-.png										HasTazer	HasCatMeat			-50	HasCatMeat	HasTazer	
+Rob Bank	rich_up.mp3	rich+_moral-.png									>=60		BankRobbed	30		-60	BankRobbed		
+Solicit Charity	rich_up.mp3	rich+_moral-.png									>=90		BankRobbed	50		-40	BankRobbed		
+Buy Donut	rich_down.mp3	rich-.png							>=10					-10			HasDonut		
+Buy Scissors	rich_down.mp3	rich-.png							>=20				HasScissors	-20			HasScissors		
+Buy Tazer	rich_down.mp3	rich-.png							>=40				HasTazer	-40			HasTazer		
+Robin Hood Bonus	rich_up.mp3	rich+_moral+.png										GiveToPoor		20		20		GiveToPoor	
+Sell Cat Meat	rich_up.mp3	rich+.png										HasCatMeat		25				HasCatMeat	

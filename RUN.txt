@@ -1,0 +1,31 @@
+Do on your favorite Linux desktop!
+If you'd like a VM with the software contact Joseph 
+<joseph@josephlewis.net>. Note that the VM is kind of large (~905mb)
+It should go live at http://josephlewis.net/CriticalThieving.ova in 
+a few hours, assuming the upload doesn't stall.
+
+Checkout the source:
+
+	svn co https://svn.cs.du.edu/courses/comp3703/s2013/group3/Project
+
+Change to the Linux project directory
+
+	cd Project/proj.linux/
+
+If you are using an x86-64 platform, you should be able to just run the
+shell script:
+
+	./run.sh
+	
+and the game will start.
+
+Otherwise build cocos2d:
+
+	cd cocos2d-2.0-x-2.0.4
+	
+	./make-all-linux-project.sh
+	cd ..
+	make
+
+
+Then run.

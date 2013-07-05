@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="all_tiles" tilewidth="32" tileheight="32">
+  <image source="all_tiles.png" width="512" height="960"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1isSACAIAFGi4/2vJWeymiiA+NnwCmULw9BEpAHAAUayW/o9GH1/Xwv7urBmO/oW+vSr+lX7/8v9ox/fz/43vP8I3jYB2UPJNQ==
+  </data>
+ </layer>
+ <layer name="Foreground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzUEJACAQRNG9mkIbKHayqA1EMI97sMOw+B985jhmAIBo+ot/jeyVj/+r14T/SfgNANFNccdbwt3ihrgL+Itbww==
+  </data>
+ </layer>
+ <layer name="Meta" width="32" height="32" opacity="0">
+  <properties>
+   <property name="Collidable" value="True"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAT5wfoDthmFscvS0H90d+NxGS/vxuWnU/pFnPy3BQNk7CkbBKBi+gNhylVYYALPxUaw=
+  </data>
+ </layer>
+ <layer name="Foreground2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1qERAEAIA0Gonc6+sm8AyyDYlaciEwFc83J7AQAAUM0vn2wf+mgD3A==
+  </data>
+ </layer>
+</map>
