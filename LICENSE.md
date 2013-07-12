@@ -1,4 +1,4 @@
-Copyright (c) 2013, Dylan Bohlender | Joseph Lewis 
+Copyright (c) 2013, Ali AlMarhoon | Dylan Bohlender | Joseph Lewis
 
 All rights reserved.
 
