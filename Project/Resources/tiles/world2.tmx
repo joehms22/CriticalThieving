@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="all_tiles" tilewidth="32" tileheight="32">
+  <image source="../all_tiles.png" width="512" height="960"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JBgI1ojIeK/VxUxqP2Dz/7zyFhetl/jgAetX/U/pGS/0btH7WfUvtp3d6gtD0yioc3BgCDd1sN
+  </data>
+ </layer>
+ <layer name="Foreground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzUEJACAQRNG9mkIbKHayqA1EMI97sMOw+B985jhmAIBo+ot/jeyVj/+r14T/SfgNANFNccdbwt3ihrgL+Itbww==
+  </data>
+ </layer>
+ <layer name="Meta" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJADAMA0Hvv1xWSuvCoCqYwB18rU5VAMBPTmtjc8q+fQCy9Kevu2ALPKY=
+  </data>
+ </layer>
+ <layer name="Foreground2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1qERAEAIA0Gonc6+sm8AyyDYlaciEwFc83J7AQAAUM0vn2wf+mgD3A==
+  </data>
+ </layer>
+</map>
